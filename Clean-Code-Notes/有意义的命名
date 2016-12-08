@@ -1,0 +1,61 @@
+有意义的命名
+
+- 名副其实
+  - 选择体现本意的名称能够让人理解和修改代码
+      int d; //消逝的时间，以日记
+      
+      int elapsedTimeInDays;
+      int daysSinceCreation;
+      int daysSinceModification;
+      int fileAgeInDays;
+      //bad code
+      public List<int []> getThem() {
+        List<int []> list1 = new ArrayList<int[]>();
+        for (int[] x:theList){
+          if (x[0] == 4){
+            list1.add(x);
+          }
+        }
+        return list1;
+      }
+      //first
+      public List<int []> getFlaggedCells() {
+        List<int []> flaggedCells = new ArrayList<int []>();
+        for (int[] cell:gameBoard){
+          if (cell[STATUS_VALUE] == FLAGGED){
+            flaggedCells.add(cell);
+          }
+        }
+        return flaggedCells;
+      }
+      //the end
+      public List<Cell> getFlaggedCells() {
+        List<Cell> flaggedCells = new ArrayList<Cell>();
+        for (Cell cell:gameBoard){
+          if (cell.isFlagged()){
+            flaggedCells.add(cell);
+          }
+        }
+        return flaggedCells;
+      }
+- 避免误导
+  - accountList ---这是错误的方式，可以使用accoutnGroup或者bunchOfAccounts
+  - 误导性名称最可怕的例子，是用小写字母1和大写字母O作为变量名
+- 做有意义的区分
+  - 只要体现出有意义的区分，使用a和the这样的前缀没问题。
+- 使用读得出来的名称
+- 使用可搜索的名称
+  - 名称长短应与其作用域大小相对应
+      for (int j = 0;j < 34;j++){
+        s += (t[j] * 4) / 5;
+      }
+      
+      int realDaysPerIdealDay = 4;
+      const int WORK_DAYS_PER_WEEK = 5;
+      int sum = 0;
+      for (int j = 0;j < NUMBER_OF_TASKS;j++){
+        int realTaskDays = taskEstimate[j] * realDaysPerIdealDay;
+        int realTaskWeeks = (realdays / WORK_DAYS_PER_WEEK);
+        sum += realTaskWeeks;
+      }
+  
