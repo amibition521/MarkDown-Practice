@@ -2,6 +2,7 @@
 
 - 名副其实
   - 选择体现本意的名称能够让人理解和修改代码
+      ```Java
       int d; //消逝的时间，以日记
       
       int elapsedTimeInDays;
