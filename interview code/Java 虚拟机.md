@@ -14,14 +14,12 @@ Q1.内存模型
   * 老年代
   * 永久代
 
+![006tKfTcgw1fb916pqo7bj30lm09taas](C:\Users\Administrator\Desktop\006tKfTcgw1fb916pqo7bj30lm09taas.jpg)
+
 * 栈
-
 * 程序计数器
-
 * 方法区
-
 * 1.7 永久代
-
 * 1.8 metaspace
 
 Q2.对象在内存中的初始化过程？
