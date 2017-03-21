@@ -2,9 +2,10 @@
 
 1.内存管理机制
 
-![006tKfTcgw1fb913k1wc0j30f50a53zv](C:\Users\Administrator\Desktop\006tKfTcgw1fb913k1wc0j30f50a53zv.jpg)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/006tKfTcgw1fb913k1wc0j30f50a53zv.jpg)
 
-各个区域介绍：![006tKfTcgw1fb91bux68qj31f016w41s](C:\Users\Administrator\Desktop\006tKfTcgw1fb91bux68qj31f016w41s.jpg)
+各个区域介绍：    
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/006tKfTcgw1fb91bux68qj31f016w41s.jpg)
 
 2.垃圾收集算法
 
@@ -92,7 +93,7 @@ finalize()方法不执行或者只能执行一次
 
 3 垃圾收集器
 
-![006tKfTcgw1fb9166bymyj30e00b5wfn](C:\Users\Administrator\Desktop\006tKfTcgw1fb9166bymyj30e00b5wfn.jpg)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/006tKfTcgw1fb9166bymyj30e00b5wfn.jpg)
 
 
 
@@ -133,7 +134,7 @@ finalize()方法不执行或者只能执行一次
 
 代码的运行参数设置为： -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
 
-![616953-20160226111115693-1490327308](C:\Users\Administrator\Desktop\616953-20160226111115693-1490327308.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/616953-20160226111115693-1490327308.png)
 
 5.Java线程调度
 
