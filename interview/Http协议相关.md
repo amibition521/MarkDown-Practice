@@ -10,7 +10,7 @@
 * Web服务器发送数据
 * Web服务器关闭TCP连接
 
-![image](https://github.com/amibition521/MarkDown-Practice/interview/network/3985563-ef43bfa84bb68de1.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-ef43bfa84bb68de1.png)
 
 2.TCP/IP协议
 
