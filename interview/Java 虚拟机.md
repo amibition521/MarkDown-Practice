@@ -14,7 +14,7 @@ Q1.内存模型
   * 老年代
   * 永久代
 
-![006tKfTcgw1fb916pqo7bj30lm09taas](C:\Users\Administrator\Desktop\006tKfTcgw1fb916pqo7bj30lm09taas.jpg)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/006tKfTcgw1fb916pqo7bj30lm09taas.jpg)
 
 * 栈
 * 程序计数器
