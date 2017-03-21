@@ -6,11 +6,11 @@
 * 发送请求命令   GET/sample/hello.jsp HTTP/1/1
 * 发送请求头信息   user-agent ,host等信息
 * Web服务器应答   版本号和协议状态码     HTTP/1.1  200 OK
-*   Web服务器发送应答头信息
+* Web服务器发送应答头信息
 * Web服务器发送数据
 * Web服务器关闭TCP连接
 
-![3985563-ef43bfa84bb68de1](C:\Users\Administrator\Desktop\3985563-ef43bfa84bb68de1.png)
+![image](https://github.com/amibition521/MarkDown-Practice/interview code/network/3985563-ef43bfa84bb68de1.png)
 
 2.TCP/IP协议
 
