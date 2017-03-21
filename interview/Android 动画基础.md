@@ -18,7 +18,8 @@
   * fromDegrees  toDegrees
   * pivotX pivotY
 * set --- 持有其他动画元素的容器。
-* interpolator ---插值器，指定了插值器资源的引用![interpolators](C:\Users\Administrator\Desktop\interpolators.png)
+* interpolator ---插值器，指定了插值器资源的引用
+![image]https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/interpolators.png)
 * 自定义Interpolator
   * 实现Interpolator接口
   * float getInterpolation(float input)这个方法被调用
@@ -33,7 +34,7 @@
 
 2.1.1 计算属性值
 
-![valuecaculate](C:\Users\Administrator\Desktop\valuecaculate.png)
+![image]https://github.com/amibition521/MarkDown-Practice/raw/master/interview/ic/valuecaculate.png)
 
 * 计算已完成动画分数 elapsed fraction ---动画完成的进度
 
