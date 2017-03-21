@@ -48,15 +48,15 @@ Transmission Control Protocol/Internet Protocol --- 传输控制协议
   * FTP --- File Transfer Protocol，文件传输协议
   * DNS服务 --- Domain Name System，域名系统
 
-![3985563-e533b0cdd7fca359](C:\Users\Administrator\Desktop\3985563-e533b0cdd7fca359.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-e533b0cdd7fca359.png)
 
 HTTP请求和相应的过程：
 
-![3985563-ecf824604debcdf1](C:\Users\Administrator\Desktop\3985563-ecf824604debcdf1.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-ecf824604debcdf1.png)
 
 3.TCP的三次握手
 
-![3985563-f2fe3775bd2678c2](C:\Users\Administrator\Desktop\3985563-f2fe3775bd2678c2.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-f2fe3775bd2678c2.png)
 
 第一次握手：建立连接。客户端发送连接请求报文段，将SYN位置为1，Sequence Number为x；然后，客户端进入SYN_SEND状态，等待服务器的确认；
 
@@ -72,7 +72,7 @@ HTTP请求和相应的过程：
 
 当客户端和服务器通过三次握手建立了TCP连接以后，当数据传送完毕，肯定是要断开TCP连接的啊。那对于TCP的断开连接，这里就有了神秘的“四次分手”。
 
-![3985563-c1c59148f8b26c43](C:\Users\Administrator\Desktop\3985563-c1c59148f8b26c43.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-c1c59148f8b26c43.png)
 
 第一次分手：主机1（可以使客户端，也可以是服务器端），设置Sequence Number，向主机2发送一个FIN报文段；此时，主机1进入FIN_WAIT_1状态；这表示主机1没有数据要发送给主机2了；
 
@@ -104,7 +104,7 @@ TCP协议是一种面向连接的、可靠的、基于字节流的运输层通�
 
 一个HTTP请求报文由请求行（request line）、请求头部（header）、空行和请求数据4个部分组成，下图给出了请求报文的一般格式。
 
-![3985563-cd59a3899ef546e1](C:\Users\Administrator\Desktop\3985563-cd59a3899ef546e1.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-cd59a3899ef546e1.png)
 
 ##### 1.请求行
 
@@ -128,7 +128,7 @@ URL:统一资源定位符，是一种自愿位置的抽象唯一识别方法。
 
 请求头部为请求报文添加了一些附加信息，由“名/值”对组成，每行一对，名和值之间使用冒号分隔。
 
-![3985563-539378eee14fa322](C:\Users\Administrator\Desktop\3985563-539378eee14fa322.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-539378eee14fa322.png)
 
 请求头部的最后会有一个空行，表示请求头部结束，接下来为请求数据，这一行非常重要，必不可少。
 
@@ -136,7 +136,7 @@ URL:统一资源定位符，是一种自愿位置的抽象唯一识别方法。
 
 6.HTTP响应报文
 
-![3985563-c6ee8f8526f59fc0](C:\Users\Administrator\Desktop\3985563-c6ee8f8526f59fc0.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-c6ee8f8526f59fc0.png)
 
 ##### 1.状态行
 
@@ -153,11 +153,11 @@ URL:统一资源定位符，是一种自愿位置的抽象唯一识别方法。
 4xx：客户端错误--请求有语法错误或请求无法实现。
 5xx：服务器端错误--服务器未能实现合法的请求。
 
-![3985563-8f3bf059bc4365e3](C:\Users\Administrator\Desktop\3985563-8f3bf059bc4365e3.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-8f3bf059bc4365e3.png)
 
 2.响应头部
 
-![3985563-33ed95479f541a07](C:\Users\Administrator\Desktop\3985563-33ed95479f541a07.png)
+![image](https://github.com/amibition521/MarkDown-Practice/raw/master/interview/network/3985563-33ed95479f541a07.png)
 
 ##### 3.响应数据
 
